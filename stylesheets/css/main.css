@@ -126,3 +126,15 @@ q:after {
 table {
   border-spacing: 0;
   border-collapse: collapse; }
+
+div {
+  line-height: 150px;
+  width: 150px;
+  height: 150px;
+  margin: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 5px;
+  background-color: red;
+  font-family: sans-serif; }

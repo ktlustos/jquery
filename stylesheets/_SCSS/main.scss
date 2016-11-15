@@ -5,3 +5,23 @@
 // Helpers Imports
 
 @import 'helpers/reset';
+
+// Variables
+$squareSize: 150px;
+
+div
+{
+    font-family: sans-serif;
+    line-height: $squareSize;
+
+    width: $squareSize;
+    height: $squareSize;
+    margin: 50px;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #fff;
+    border-radius: 5px;
+    background-color: red;
+}
