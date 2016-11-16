@@ -6,22 +6,173 @@
 
 @import 'helpers/reset';
 
-// Variables
-$squareSize: 150px;
+// // Variables
+// $squareSize: 300px;
+// $buttonSize: 100px;
+//
+// #box
+// {
+//     font-family: sans-serif;
+//     line-height: $squareSize;
+//
+//     width: $squareSize;
+//     height: $squareSize;
+//     margin: 50px;
+//
+//     text-align: center;
+//     text-transform: uppercase;
+//
+//     color: #fff;
+//     border-radius: 5px;
+//     background-color: red;
+// }
+//
+// #slide
+// {
+//     font-family: sans-serif;
+//     font-size: 10px;
+//     line-height: $buttonSize;
+//
+//     display: inline-block;
+//
+//     width: $buttonSize;
+//     height: $buttonSize;
+//     margin-left: 50px;
+//
+//     text-align: center;
+//
+//     color: white;
+//     border-radius: 3px;
+//     background-color: black;
+// }
+//
+// #toggle
+// {
+//     font-family: sans-serif;
+//     font-size: 10px;
+//     line-height: $buttonSize;
+//
+//     display: inline-block;
+//
+//     width: $buttonSize;
+//     height: $buttonSize;
+//     margin-left: 50px;
+//
+//     text-align: center;
+//
+//     color: white;
+//     border-radius: 3px;
+//     background-color: blue;
+// }
 
-div
+// ul
+// {
+//     margin: 50px;
+// }
+//
+// .red
+// {
+//     line-height: 200px;
+//
+//     display: inline-block;
+//
+//     width: 200px;
+//     height: 200px;
+//     margin: 50px;
+//
+//     text-align: center;
+//
+//     color: #fff;
+//     background-color: #f00;
+// }
+//
+// .blue
+// {
+//     line-height: 200px;
+//
+//     display: inline-block;
+//
+//     width: 200px;
+//     height: 200px;
+//     margin: 50px;
+//
+//     text-align: center;
+//
+//     color: #fff;
+//     background-color: #00f;
+// }
+//
+// .green
+// {
+//     line-height: 200px;
+//
+//     display: inline-block;
+//
+//     width: 200px;
+//     height: 200px;
+//     margin: 50px;
+//
+//     text-align: center;
+//
+//     color: #fff;
+//     background-color: #0f0;
+// }
+//
+// %Button
+// {
+//     line-height: 100px;
+//
+//     width: 200px;
+//     height: 100px;
+//     margin: 20px;
+//
+//     transition: .5s;
+//     text-align: center;
+// }
+//
+// .Button
+// {
+//     background-color: #f0f;
+//
+//     @extend %Button;
+// }
+//
+// .active
+// {
+//     background-color: #ff0;
+//
+//     @extend %Button;
+// }
+//
+form
 {
-    font-family: sans-serif;
-    line-height: $squareSize;
+    margin: 10px 50px 10px 50px;
+}
 
-    width: $squareSize;
-    height: $squareSize;
-    margin: 50px;
+button
+{
+    margin: 10px 30px;
+}
 
-    text-align: center;
-    text-transform: uppercase;
+h1
+{
+    margin-top: 50px;
+    margin-left: 50px;
+}
 
-    color: #fff;
-    border-radius: 5px;
-    background-color: red;
+input[type='text']
+{
+    width: 100px;
+    height: 30px;
+}
+
+ul
+{
+    margin-left: 50px;
+}
+
+.toDoList
+{
+    width: 50px;
+    height: 20px;
 }

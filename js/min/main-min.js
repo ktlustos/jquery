@@ -1,1 +1,1 @@
-$(document).ready(function(){});
+$(document).ready(function(){var o=0,l='input[name="toDo"]';$("#doIt").click(function(){o+=1,$("h3").html("You have"+o+"todos!");var t=$(l).val(),n=$("<li>"+t+"</li>");$("ul").append(n),$(l).val("")}),$(document).on("click","ul li",function(){$(this).remove(),o-=1,$("h3").html("You have"+o+"todos!")}),$("#clearAll").click(function(){$("ul").empty()})});

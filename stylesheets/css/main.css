@@ -127,14 +127,23 @@ table {
   border-spacing: 0;
   border-collapse: collapse; }
 
-div {
-  line-height: 150px;
-  width: 150px;
-  height: 150px;
-  margin: 50px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #fff;
-  border-radius: 5px;
-  background-color: red;
-  font-family: sans-serif; }
+form {
+  margin: 10px 50px 10px 50px; }
+
+button {
+  margin: 10px 30px; }
+
+h1 {
+  margin-top: 50px;
+  margin-left: 50px; }
+
+input[type='text'] {
+  width: 100px;
+  height: 30px; }
+
+ul {
+  margin-left: 50px; }
+
+.toDoList {
+  width: 50px;
+  height: 20px; }
